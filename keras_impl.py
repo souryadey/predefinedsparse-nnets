@@ -296,5 +296,7 @@ recs,model = sim_net(
                     config = np.array([800,100,10]),
                     fo = np.array([50,10]),
                     l2_val = 8e-5,
-                    dataset_filename = data_folder + 'dataset_MNIST/mnist.npz'
+                    z = None,
+                    dataset_filename = data_folder + 'dataset_MNIST/mnist.npz',
+                    preds_compare = 0
                     )

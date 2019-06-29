@@ -3,7 +3,7 @@
 This repository implements **pre-defined sparse neural networks** -- as per research done by the [USC HAL team](https://hal.usc.edu/). Pre-defined sparsity lowers complexity of networks with minimal performance degradation. This leads to simpler architectures and better understanding of the 'black box' that is neural networks.
 
 This **research paper** has more details. Please consider citing it if you use or benefit from this work:<br>
-Sourya Dey, Kuan-Wen Huang, Peter A. Beerel, Keith M. Chugg, "[Pre-Defined Sparse Neural Networks with Hardware Acceleration](https://ieeexplore.ieee.org/document/8689061)" in _IEEE Journal on Emerging and Selected Topics in Circuits and Systems_, vol. 9, no. 2, pp. 332-345, June 2019.<br>
+Sourya Dey, Kuan-Wen Huang, Peter A. Beerel, Keith M. Chugg, "Pre-Defined Sparse Neural Networks with Hardware Acceleration" in _IEEE Journal on Emerging and Selected Topics in Circuits and Systems_, vol. 9, no. 2, pp. 332-345, June 2019.<br>
 Available on [IEEE](https://ieeexplore.ieee.org/document/8689061) and [arXiv](https://arxiv.org/abs/1812.01164) (copyright owned by IEEE).
 
 <br>**Requirements**: Python 3, [Keras](https://keras.io/) (this work uses the Tensorflow backend), numpy, scipy
@@ -23,9 +23,9 @@ recs,model = sim_net(
                     config = np.array([800,100,10]),
                     fo = np.array([50,10]),
                     l2_val = 8e-5,
-					z = None,
+                    z = None,
                     dataset_filename = data_folder + 'dataset_MNIST/mnist.npz',
-					preds_compare = 0
+                    preds_compare = 0
                     )
 ```
 
@@ -44,4 +44,4 @@ A complete explanation of these terms and concepts is given in the research pape
 - [Reuters RCV1 v2](./dataset_RCV1/) - Links to download and methods to process this dataset are given in [data_loadstore](./data_loadstore.py)
 - [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1): Not freely available, hence not provided.
 
-<br>We at USC HAL are actively researching on pre-defined sparsity, model search, log-domain computations, and CNN hardware architectures. Find our work and other publications at our website: https://hal.usc.edu/
+<br>We at USC HAL are actively researching on pre-defined sparsity, model search, log-domain computations, and CNN hardware architectures. Find our info and other publications at our [website](https://hal.usc.edu/)
