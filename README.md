@@ -44,4 +44,4 @@ A complete explanation of these terms and concepts is given in the research pape
 - [Reuters RCV1 v2](./dataset_RCV1/) - Links to download and methods to process this dataset are given in [data_loadstore](./data_loadstore.py)
 - [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1): Not freely available, hence not provided.
 
-<br>We at USC HAL are actively researching on pre-defined sparsity, model search, log-domain computations, and CNN hardware architectures. Find our info and other publications at our [website](https://hal.usc.edu/)
+<br>**Further research details**: Our group at USC has been reseaching and developing pre-defined sparsity starting from 2016. Our other publications can be found [here](https://hal.usc.edu/publications.html). An associated effort - the development of synthetic datasets for classifying Morse code symbols - can be found [here](https://github.com/usc-hal/morse-dataset).
