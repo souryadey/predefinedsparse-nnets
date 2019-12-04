@@ -6,6 +6,8 @@ This **research paper** has more details. Please consider citing it if you use o
 Sourya Dey, Kuan-Wen Huang, Peter A. Beerel, Keith M. Chugg, "Pre-Defined Sparse Neural Networks with Hardware Acceleration" in _IEEE Journal on Emerging and Selected Topics in Circuits and Systems_, vol. 9, no. 2, pp. 332-345, June 2019.<br>
 Available on [IEEE](https://ieeexplore.ieee.org/document/8689061) and [arXiv](https://arxiv.org/abs/1812.01164) (copyright owned by IEEE).
 
+Read this [Medium blog post](https://towardsdatascience.com/pre-defined-sparsity-for-reducing-complexity-in-neural-networks-55b0e85a1b54) for a quick description.
+
 <br>**Requirements**: Python 3, [Keras](https://keras.io/) (this work uses the Tensorflow backend), numpy, scipy
 
 <br>**Main file**: [keras_impl](./keras_impl.py)
