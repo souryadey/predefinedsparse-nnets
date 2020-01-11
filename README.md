@@ -8,7 +8,10 @@ Available on [IEEE](https://ieeexplore.ieee.org/document/8689061) and [arXiv](ht
 
 Read this [Medium blog post](https://towardsdatascience.com/pre-defined-sparsity-for-reducing-complexity-in-neural-networks-55b0e85a1b54) for a quick description.
 
-<br>**Requirements**: Python 3, [Keras](https://keras.io/) (this work uses the Tensorflow backend), numpy, scipy
+<br>**Software used**:
+- Python 3
+- [Keras](https://keras.io/) 2.2.4 with backend Tensorflow 1.10.0
+- numpy, scipy
 
 <br>**Main file**: [keras_impl](./keras_impl.py)
 <br>Run the `sim_net` method with these arguments:
@@ -46,4 +49,4 @@ A complete explanation of these terms and concepts is given in the research pape
 - [Reuters RCV1 v2](./dataset_RCV1/) - Links to download and methods to process this dataset are given in [data_loadstore](./data_loadstore.py)
 - [TIMIT](https://catalog.ldc.upenn.edu/LDC93S1): Not freely available, hence not provided.
 
-<br>**Further research details**: Our group at USC has been reseaching and developing pre-defined sparsity starting from 2016. Our other publications can be found [here](https://hal.usc.edu/publications.html). An associated effort - the development of synthetic datasets for classifying Morse code symbols - can be found [here](https://github.com/usc-hal/morse-dataset).
+<br>**Further research details**: Our group at USC has been reseaching and developing pre-defined sparsity starting from 2016. Our other publications can be found [here](https://hal.usc.edu/publications.html). You can also check out my [website](https://souryadey.github.io/) for other deep learning projects and details.
